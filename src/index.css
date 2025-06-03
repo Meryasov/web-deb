@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+::-webkit-scrollbar {
+  width: 0; /* Hide scrollbar */
+  background: transparent; /* Optional: make background transparent */
+}
+
+body {
+  background-color: white;
+  display: flex;
+  color: white;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+}
